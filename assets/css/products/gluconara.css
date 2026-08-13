@@ -1,0 +1,19 @@
+/*
+  Paleta por produto -- Gluconara.
+  Sobrescreve os tokens de cor (:root) de ../reviews.css para refletir a
+  identidade visual real da TSL oficial (https://gluconara.com/buygoods/pv/),
+  mantendo layout/estrutura do MODELO REVIEW intactos (so cores mudam).
+  Tokens extraidos das cores reais do site (curl + grep em css/style.css,
+  nao WebFetch), ver data/produtos/gluconara.json -> identidade_visual.paleta.
+*/
+:root{
+  --navy-1:#c71012;
+  --navy-2:#6b0a0b;
+  --testimonial-navy:#8f0d0f;
+  --panel-gray:#fdf0ef;
+  --cta-1:#FFE500;
+  --cta-2:#F3CD4D;
+  --cta-hover-1:#FFD700;
+  --cta-hover-2:#EBCC69;
+  --badge-border:rgba(255,229,0,.6);
+}
