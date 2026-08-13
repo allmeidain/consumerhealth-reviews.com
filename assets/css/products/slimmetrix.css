@@ -1,0 +1,19 @@
+/*
+  Paleta por produto -- SlimMetrix.
+  Sobrescreve os tokens de cor (:root) de ../reviews.css para refletir a
+  identidade visual real da pagina oficial (https://quickslimstep.com/frt),
+  mantendo layout/estrutura do MODELO REVIEW intactos (so cores mudam).
+  Tokens extraidos das cores reais do site (curl + grep de variaveis CSS --[a-z-]*:
+  e hex codes, nao WebFetch), ver data/produtos/slimmetrix.json -> theme_tokens.paleta.
+*/
+:root{
+  --navy-1:#691180;
+  --navy-2:#4d0d60;
+  --testimonial-navy:#691180;
+  --panel-gray:#fcf6ff;
+  --cta-1:#ffd075;
+  --cta-2:#e87a00;
+  --cta-hover-1:#ffc04d;
+  --cta-hover-2:#d16f00;
+  --badge-border:rgba(163,31,192,.6);
+}
