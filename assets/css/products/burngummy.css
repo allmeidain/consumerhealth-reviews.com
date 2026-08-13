@@ -1,0 +1,20 @@
+/*
+  Paleta por produto -- BurnGummy.
+  Sobrescreve os tokens de cor (:root) de ../reviews.css para refletir a
+  identidade visual real da pagina oficial (https://burngummy.com/ e da
+  landing de vendas https://www.glowinbalance.com/bgmfeabcbg), mantendo
+  layout/estrutura do MODELO REVIEW intactos (so cores mudam).
+  Tokens extraidos das variaveis CSS reais do site (curl + grep de
+  --[a-z-]*: #hex), ver data/produtos/burngummy.json -> theme_tokens.
+*/
+:root{
+  --navy-1:#ec1f6f;
+  --navy-2:#a40e44;
+  --testimonial-navy:#7d0a35;
+  --panel-gray:#fff5f9;
+  --cta-1:#ffb648;
+  --cta-2:#f59e0b;
+  --cta-hover-1:#ffd075;
+  --cta-hover-2:#e8722c;
+  --badge-border:rgba(236,31,111,.6);
+}
