@@ -1,0 +1,19 @@
+/*
+  Paleta por produto -- SodaSlim.
+  Sobrescreve os tokens de cor (:root) de ../reviews.css para refletir a
+  identidade visual real do rotulo oficial do produto (sodaslim.com),
+  mantendo layout/estrutura do MODELO REVIEW intactos (so cores mudam).
+  Tokens extraidos por amostragem de pixels do rotulo real (bottle label),
+  ver data/produtos/sodaslim.json -> theme_tokens.
+*/
+:root{
+  --navy-1:#1B2350;
+  --navy-2:#0E1638;
+  --testimonial-navy:#1B2350;
+  --panel-gray:#F4F1EA;
+  --cta-1:#F5A623;
+  --cta-2:#E8722C;
+  --cta-hover-1:#E8722C;
+  --cta-hover-2:#C85A1B;
+  --badge-border:#FFC94D;
+}
