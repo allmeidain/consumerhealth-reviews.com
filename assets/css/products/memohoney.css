@@ -1,0 +1,21 @@
+/*
+  Paleta por produto -- Memohoney.
+  Sobrescreve os tokens de cor (:root) de ../reviews.css para refletir a
+  identidade visual real da pagina oficial (https://mymemohoney.com/),
+  mantendo layout/estrutura do MODELO REVIEW intactos (so cores mudam).
+  Tokens extraidos das cores/gradientes reais do CSS Elementor do site
+  oficial (post-11.css, pagina "home"), ver data/produtos/memohoney.json ->
+  theme_tokens. Paleta dourada/mel (#D79A1B, #C17B00, #FFCA43) combina com
+  o nome "Memo Honey".
+*/
+:root{
+  --navy-1:#5C4A34;
+  --navy-2:#231F1B;
+  --testimonial-navy:#3A2C1B;
+  --panel-gray:#F8ECD0;
+  --cta-1:#FFCA43;
+  --cta-2:#D79A1B;
+  --cta-hover-1:#FFDB73;
+  --cta-hover-2:#C17B00;
+  --badge-border:rgba(215,154,27,.6);
+}
