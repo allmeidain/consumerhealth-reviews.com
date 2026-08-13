@@ -1,0 +1,19 @@
+/*
+  Paleta por produto -- GutSave.
+  Sobrescreve os tokens de cor (:root) de ../reviews.css para refletir a
+  identidade visual real da pagina oficial (https://thegutsave.com/),
+  mantendo layout/estrutura do MODELO REVIEW intactos (so cores mudam).
+  Tokens extraidos das cores reais do site (curl + grep em statics/css/style.css,
+  nao WebFetch), ver data/produtos/gutsave.json -> theme_tokens.paleta.
+*/
+:root{
+  --navy-1:#153354;
+  --navy-2:#19466d;
+  --testimonial-navy:#153354;
+  --panel-gray:#e5eff9;
+  --cta-1:#d4b06e;
+  --cta-2:#c09857;
+  --cta-hover-1:#e0c184;
+  --cta-hover-2:#ab8144;
+  --badge-border:rgba(192,152,87,.6);
+}
