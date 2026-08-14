@@ -18,3 +18,12 @@
   --cta-hover-2:#F39602;
   --badge-border:rgba(1,204,180,.6);
 }
+
+/* Teste isolado GlycoBalance: imagem hero estava ocupando a dobra inteira
+   (54%/82% no reviews.css) e escondendo o titulo da 1a secao. Reduzida so
+   nesta pagina para o H2 "What Is GlycoBalance" aparecer sem rolar tanto. */
+.hero-image{padding:14px 0}
+.hero-image img{width:30%}
+@media (max-width:767px){
+  .hero-image img{width:52%}
+}
