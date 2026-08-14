@@ -1,0 +1,22 @@
+/*
+  Paleta por produto -- JointBrex.
+  Sobrescreve os tokens de cor (:root) de ../reviews.css para refletir a
+  identidade visual real da pagina oficial (https://jointbrex.com/),
+  mantendo layout/estrutura do MODELO REVIEW intactos (so cores mudam).
+  Tokens extraidos das cores/gradientes reais do CSS Elementor do site
+  oficial (post-64.css), ver data/produtos/jointbrex.json -> theme_tokens.
+  Paleta verde (#00A05A, #074429) combina com o rotulo real do frasco
+  (fundo branco com faixa verde "PREMIUM"); CTA dourado (#FFCA43/#D1AE39)
+  extraido do gradiente real do botao principal do site.
+*/
+:root{
+  --navy-1:#00A05A;
+  --navy-2:#074429;
+  --testimonial-navy:#0B4D2E;
+  --panel-gray:#EFFBF4;
+  --cta-1:#FFCA43;
+  --cta-2:#D1AE39;
+  --cta-hover-1:#F39602;
+  --cta-hover-2:#ED8104;
+  --badge-border:rgba(255,202,67,.6);
+}
