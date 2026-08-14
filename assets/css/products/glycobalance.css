@@ -1,0 +1,20 @@
+/*
+  Paleta por produto -- GlycoBalance.
+  Sobrescreve os tokens de cor (:root) de ../reviews.css para refletir a
+  identidade visual real da pagina oficial (https://theglycobalance.com/),
+  mantendo layout/estrutura do MODELO REVIEW intactos.
+  Tokens extraidos do CSS da pagina oficial (post-48.css) em 2026-08-14:
+  verde-teal escuro (#026F62) igual ao rotulo do frasco, com CTA
+  dourado/laranja (#FFCA43 / #FF8200) e accent teal vibrante (#01CCB4).
+*/
+:root{
+  --navy-1:#026F62;
+  --navy-2:#013F37;
+  --testimonial-navy:#014942;
+  --panel-gray:#F3FBF9;
+  --cta-1:#FFCA43;
+  --cta-2:#FF8200;
+  --cta-hover-1:#ED8104;
+  --cta-hover-2:#F39602;
+  --badge-border:rgba(1,204,180,.6);
+}
