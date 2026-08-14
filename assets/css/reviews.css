@@ -144,14 +144,14 @@ body{padding-bottom:90px} /* espaco para o botao flutuante nao cobrir o rodape *
   .top-bar .site-badge{margin-top:6px;margin-bottom:2px}
   .btn{font-size:17px;line-height:1.2em;padding:13px 26px}
   .site-badge a{font-size:13px;padding:5px 14px}
-  .hero-image{padding:8px 0}
-  .hero-image img{width:auto;max-width:82%;max-height:265px;object-fit:contain}
-  .content-section{padding:12px 0 80px}
+  .hero-image{padding:6px 0}
+  .hero-image img{width:auto;max-width:190px;max-height:190px;object-fit:contain}
+  .content-section{padding:10px 0 80px}
   .content-card h2{font-size:25px;line-height:1.3em;padding:10px 20px}
   .content-card .block-body{font-size:16px;line-height:1.4em;padding:18px 20px;text-align:center}
   .content-card .block-body ul{text-align:left}
   .inline-figure{padding:10px 20px 25px}
-  .inline-figure img{max-width:100%;width:auto;margin:0 auto}
+  .inline-figure img{max-width:220px;width:auto;margin:0 auto}
   .testimonials-grid{grid-template-columns:1fr}
   .legal-disclaimer{font-size:10px;padding:0 16px}
   .footer-links{grid-template-columns:1fr;gap:4px}
