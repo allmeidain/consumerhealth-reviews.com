@@ -1,0 +1,12 @@
+/* VigorRise - Paleta de Cores e Identidade Visual (Men's Vitality / Deep Royal Violet) */
+:root {
+  --navy-1: #330968;
+  --navy-2: #230548;
+  --testimonial-navy: #1D033D;
+  --panel-gray: #FAF8FD;
+  --cta-1: #FBBF24;
+  --cta-2: #F59E0B;
+  --cta-hover-1: #F59E0B;
+  --cta-hover-2: #FBBF24;
+  --badge-border: rgba(251, 191, 36, 0.6);
+}
