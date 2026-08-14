@@ -19,16 +19,3 @@
   --badge-border:rgba(1,204,180,.6);
 }
 
-
-/* Teste isolado GlycoBalance: modal de saida NAO bloqueia navegacao (sem
-   beforeunload/popstate/preventDefault) -- so aparece quando o mouse sai
-   pelo topo da janela (desktop), com botao de fechar e clique fora sempre
-   disponiveis, e no maximo uma vez por sessao (sessionStorage). */
-.exit-modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:10000;align-items:center;justify-content:center;padding:20px}
-.exit-modal-overlay.is-visible{display:flex}
-.exit-modal{background:#fff;border-radius:var(--radius-btn);max-width:420px;width:100%;padding:32px 28px 28px;text-align:center;position:relative;box-shadow:0 20px 60px rgba(0,0,0,.4)}
-.exit-modal-close{position:absolute;top:8px;right:12px;background:none;border:none;font-size:26px;line-height:1;cursor:pointer;color:#666;padding:6px}
-.exit-modal img{width:110px;margin:0 auto 16px}
-.exit-modal h3{font-family:"Poppins",sans-serif;font-size:22px;margin:0 0 10px;color:var(--navy-2)}
-.exit-modal p{font-size:15px;color:var(--muted);margin:0 0 20px;line-height:1.5}
-.exit-modal .btn{display:block;width:100%;box-sizing:border-box}
