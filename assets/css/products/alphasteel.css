@@ -1,0 +1,12 @@
+/* AlphaSteel - Paleta de Cores e Identidade Visual (Men's Vitality / Black-Red-Gold) */
+:root {
+  --navy-1: #7A0D0B;
+  --navy-2: #171717;
+  --testimonial-navy: #1F1F1F;
+  --panel-gray: #F4D7D3;
+  --cta-1: #FFCA43;
+  --cta-2: #D1AE39;
+  --cta-hover-1: #F39602;
+  --cta-hover-2: #ED8104;
+  --badge-border: rgba(217, 30, 24, 0.6);
+}
