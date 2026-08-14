@@ -1,0 +1,19 @@
+/* Ignitra - Paleta de Cores e Identidade Visual (Metabolic Health / Blue-Gold) */
+:root {
+  --navy-1: #0071BC;
+  --navy-2: #00395F;
+  --testimonial-navy: #013F6B;
+  --panel-gray: #F3F3F3;
+  --cta-1: #FFE07A;
+  --cta-2: #EFD450;
+  --cta-hover-1: #FFF3B0;
+  --cta-hover-2: #F5C518;
+  --badge-border: rgba(239, 212, 80, 0.6);
+}
+
+/* Frasco do Ignitra tem proporcao mais alta/estreita (1005x1590) que o padrao do modelo
+   (bottles quase quadradas) — a regra global width:54% deixaria a imagem desproporcionalmente
+   alta no desktop. Limitar por altura mantem o mesmo footprint visual das outras paginas. */
+@media (min-width: 768px) {
+  .hero-image img { width: auto; max-width: 46%; max-height: 720px; }
+}
