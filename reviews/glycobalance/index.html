@@ -274,5 +274,33 @@
   </div>
   <p class="copyright">&copy; 2026 Consumer Health Reviews. All Rights Reserved.</p>
 </footer>
+
+<div class="exit-modal-overlay" id="exit-modal-overlay">
+  <div class="exit-modal">
+    <button type="button" class="exit-modal-close" id="exit-modal-close" aria-label="Fechar">&times;</button>
+    <img src="../../assets/images/glycobalance/hero-bottle.png" alt="GlycoBalance">
+    <h3>Before you go...</h3>
+    <p>Make sure GlycoBalance is still available with the 60-day guarantee before you close this page.</p>
+    <a class="btn" href="https://mwyuno.com/12970/258/2/?" target="_blank" rel="nofollow noopener">Check Availability On Official Website</a>
+  </div>
+</div>
+<script>
+(function(){
+  var STORAGE_KEY = 'glycobalance_exit_shown';
+  var overlay = document.getElementById('exit-modal-overlay');
+  var closeBtn = document.getElementById('exit-modal-close');
+  function show(){
+    if (sessionStorage.getItem(STORAGE_KEY)) return;
+    overlay.classList.add('is-visible');
+    sessionStorage.setItem(STORAGE_KEY, '1');
+  }
+  function hide(){ overlay.classList.remove('is-visible'); }
+  document.addEventListener('mouseout', function(e){
+    if (!e.relatedTarget && e.clientY <= 0) show();
+  });
+  closeBtn.addEventListener('click', hide);
+  overlay.addEventListener('click', function(e){ if (e.target === overlay) hide(); });
+})();
+</script>
 </body>
 </html>
