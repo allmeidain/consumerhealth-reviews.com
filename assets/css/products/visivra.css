@@ -1,0 +1,12 @@
+/* Visivra - Paleta de Cores e Identidade Visual (Vision / Eye Health - Royal Blue/Gold) */
+:root {
+  --navy-1: #15408D;
+  --navy-2: #0A2050;
+  --testimonial-navy: #0F2E63;
+  --panel-gray: #F3F3F3;
+  --cta-1: #E3CE04;
+  --cta-2: #C7B400;
+  --cta-hover-1: #F5E94D;
+  --cta-hover-2: #D9C400;
+  --badge-border: rgba(227, 206, 4, 0.6);
+}
