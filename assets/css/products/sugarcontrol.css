@@ -1,0 +1,20 @@
+/*
+  Paleta por produto -- SugarControl (Sugar Control Keto Gummies).
+  Sobrescreve os tokens de cor (:root) de ../reviews.css para refletir a
+  identidade visual real da pagina oficial (https://gosugarcontrol.com/),
+  mantendo layout/estrutura do MODELO REVIEW intactos.
+  Tokens extraidos do site oficial e do rotulo do produto:
+  Fundo bordô/crimson escuro (#4A0808, #3A0606) com gradiente de botão
+  dourado/amarelo vibrante (#FFCC00 / #E7B900).
+*/
+:root{
+  --navy-1:#4A0808;
+  --navy-2:#3A0606;
+  --testimonial-navy:#300505;
+  --panel-gray:#FFF8F6;
+  --cta-1:#FFCC00;
+  --cta-2:#E7B900;
+  --cta-hover-1:#E7B900;
+  --cta-hover-2:#FFCC00;
+  --badge-border:rgba(255,204,0,.6);
+}
